@@ -1,0 +1,13 @@
+metric,value
+n_obs,23971.0
+treated_n,12720.0
+control_n,11251.0
+treatment_rate,0.5306411914396563
+propensity_min,0.05987798759486169
+propensity_p01,0.1965205323278601
+propensity_p99,0.8209458827710624
+propensity_max,0.942979779826662
+propensity_overlap_lb_05,0.3429811326124624
+propensity_overlap_ub_95,0.7127803763697107
+near_0_share_(<= 0.03),0.0
+near_1_share_(>= 0.97),0.0

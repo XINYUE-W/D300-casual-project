@@ -1,0 +1,12 @@
+metric,value
+direct_rows,23972
+fetched_rows,23972
+same_row_count,True
+direct_col_count,6
+fetched_col_count,6
+same_columns,True
+exact_equal_after_standardization,True
+direct_hash,d3f543c80777d7497aa02df4a922963d48d121d2046200f50d643731beb838f3
+fetched_hash,d3f543c80777d7497aa02df4a922963d48d121d2046200f50d643731beb838f3
+direct_only_columns,(none)
+fetched_only_columns,(none)

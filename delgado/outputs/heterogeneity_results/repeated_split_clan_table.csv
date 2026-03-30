@@ -1,0 +1,7 @@
+Characteristic,Most affected (Q1),Least affected (Q4),Difference (Q4 - Q1),95% CI for difference
+Food share,0.441,0.320,-0.119,"[-0.127, -0.111]"
+Log total expenditure,12.864,13.930,1.067,"[1.037, 1.096]"
+Age,63.233,45.440,-17.493,"[-18.117, -16.889]"
+Household size,2.276,4.677,2.405,"[2.336, 2.474]"
+Male share,0.710,0.954,0.242,"[0.225, 0.260]"
+Propensity score,0.453,0.597,0.144,"[0.138, 0.150]"

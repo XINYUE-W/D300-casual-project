@@ -1,0 +1,24 @@
+\subsection{Average Treatment Effect}
+\input{latex/tbl_results_34.tex}
+
+\subsection{Heterogeneous Treatment Effects}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.72\textwidth]{latex/repeated_split_sorted_gate_plot.png}
+\caption{Repeated-split sorted group average treatment effects. The most affected group (Q1) exhibits a substantially more negative treatment effect than the least affected group (Q4), indicating economically meaningful heterogeneity. Vertical bars denote 95\% confidence intervals.}
+\label{fig:repeated_gate}
+\end{figure}
+
+\subsubsection*{CLAN and Covariate Profiles}
+\input{latex/tbl_clan_results.tex}
+
+\subsubsection*{Permutation Importance}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.72\textwidth]{latex/permutation_importance_plot.png}
+\caption{Permutation-adjusted variable importance from the repeated-split heterogeneity analysis. Higher observed importance relative to the permutation benchmark indicates more robust evidence that a covariate contributes to treatment-effect heterogeneity.}
+\label{fig:perm_importance}
+\end{figure}
+
+\input{latex/tbl_permutation_results.tex}

@@ -1,0 +1,42 @@
+\begin{table}[htbp]
+\centering
+
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\caption{Main estimation results}
+\label{tab:main_results}
+\footnotesize
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Model & ATE & 95\% CI \\
+\midrule
+GWL baseline (HC3) & -0.0263 & [-0.0304, -0.0222] \\
+GWL extended (HC3) & -0.0260 & [-0.0302, -0.0218] \\
+LinearDML & -0.0241 & [-0.0282, -0.0200] \\
+CausalForestDML & -0.0244 & [-0.0454, -0.0034] \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\begin{threeparttable}
+\caption{Repeated-split BLP heterogeneity test}
+\label{tab:blp_results}
+\footnotesize
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Term & Estimate & 95\% CI \\
+\midrule
+ATE ($\beta_1$) & -0.0236 & [-0.0288, -0.0185] \\
+Heterogeneity loading ($\beta_2$) & 0.6703 & [0.3326, 1.0012] \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Estimates are medians across 100 repeated sample splits.
+\end{tablenotes}
+\end{threeparttable}
+\end{minipage}
+
+\end{table}

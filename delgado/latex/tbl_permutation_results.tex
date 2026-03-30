@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Permutation-adjusted variable importance}
+\label{tab:perm_results}
+\footnotesize
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccc@{}}
+\toprule
+Variable & Observed & Perm.\ median & Perm.\ 95th pct. & $p$-value & $-\log(p)$ \\
+\midrule
+Log total expenditure & 0.581 & 0.631 & 0.655 & 1.000 & 0.000 \\
+Age & 0.308 & 0.257 & 0.274 & 0.020 & 3.932 \\
+Household size & 0.081 & 0.092 & 0.120 & 0.980 & 0.020 \\
+Male share & 0.031 & 0.019 & 0.026 & 0.020 & 3.932 \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Notes: The table compares observed score-based forest importance with the permutation benchmark. Smaller $p$-values indicate stronger evidence that observed importance exceeds what could arise under random permutation of the heterogeneity score.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
