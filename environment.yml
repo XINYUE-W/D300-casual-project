@@ -1,4 +1,4 @@
-name: d300-delgado
+name: d300
 channels:
   - conda-forge
   - defaults

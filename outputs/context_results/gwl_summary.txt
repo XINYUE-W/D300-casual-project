@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  wfood   R-squared:                       0.404
+Model:                            OLS   Adj. R-squared:                  0.403
+Method:                 Least Squares   F-statistic:                     2575.
+Date:                Mon, 30 Mar 2026   Prob (F-statistic):               0.00
+Time:                        16:27:46   Log-Likelihood:                 15281.
+No. Observations:               23972   AIC:                        -3.055e+04
+Df Residuals:                   23965   BIC:                        -3.049e+04
+Df Model:                           6                                         
+Covariance Type:                  HC3                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            -2.0574      0.299     -6.888      0.000      -2.643      -1.472
+log_totexp        0.4917      0.044     11.137      0.000       0.405       0.578
+log_totexp_sq    -0.0239      0.002    -14.669      0.000      -0.027      -0.021
+age               0.0016   6.56e-05     23.716      0.000       0.001       0.002
+size              0.0266      0.001     35.663      0.000       0.025       0.028
+town             -0.0131      0.001    -17.136      0.000      -0.015      -0.012
+sex_male          0.0252      0.003      8.203      0.000       0.019       0.031
+==============================================================================
+Omnibus:                      671.063   Durbin-Watson:                   1.786
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1571.465
+Skew:                           0.118   Prob(JB):                         0.00
+Kurtosis:                       4.232   Cond. No.                     4.28e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 4.28e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

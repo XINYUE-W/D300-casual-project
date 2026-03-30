@@ -121,6 +121,10 @@ def main() -> int:
     gwl_curve, model = fit_gwl_curve(df)
     lowess_curve = fit_lowess_curve(df)
 
+    gwl_curve.to_csv(out_dir / "gwl_curve.csv", index=False)
+    lowess_curve.to_csv(out_dir / "lowess_curve.csv", index=False)
+    with (out_dir / "gwl_summary.txt").open("w", encoding="utf-8") as f:
+        f.write(model.summary().as_text())
     plot_engel_curve(df, gwl_curve, lowess_curve, out_dir / "engel_curve_gwl_vs_lowess.png")
 
     print("Saved Engel-curve context outputs to:", out_dir)

@@ -1,4 +1,4 @@
-# D300 Project - Delgado (BudgetFood)
+# D300 Project (BudgetFood)
 
 This repo studies whether urban residence affects the household food expenditure share and whether that effect is heterogeneous across households. The project uses the `BudgetFood` data background from Delgado and Mora (1998), but the research question here is different: the original paper studies Engel-curve specification, while this repo studies an observational treatment-effect problem.
 
@@ -68,7 +68,7 @@ This maintains four files in `data/`:
 
 ```bash
 conda env create -f environment.yml
-conda activate d300-delgado
+conda activate d300
 ```
 
 2. Prepare data:
