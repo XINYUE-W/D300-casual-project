@@ -98,7 +98,7 @@ def main() -> int:
     )
     plot_permutation_importance(perm_importance_summary, hetero_dir / "permutation_importance_plot.png")
 
-    print("Saved heterogeneity outputs to:", hetero_dir)
+    print("Saved heterogeneity outputs to:", hetero_dir.relative_to(project_root))
     return 0
 
 

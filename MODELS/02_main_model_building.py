@@ -223,7 +223,7 @@ def run_pipeline(
     print(f"ATE (CausalForestDML, test) = {ate_cf_test:.4f} 95%CI[{float(ate_cf_ci[0]):.4f}, {float(ate_cf_ci[1]):.4f}]")
     het_row = blp_table.loc[blp_table["term"] == "heterogeneity_signal"].iloc[0]
     print(f"BLP heterogeneity beta = {het_row['coef']:.4f}, p-value = {het_row['p_value']:.4f}")
-    print("Saved outputs to:", out_dir)
+    print("Saved outputs to:", out_dir.relative_to(project_root))
 
 
 if __name__ == "__main__":

@@ -235,7 +235,7 @@ def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     save_plots(analysis_df, out_dir)
 
-    print("Saved EDA outputs to:", out_dir)
+    print("Saved EDA outputs to:", out_dir.relative_to(project_root))
     return 0
 
 
